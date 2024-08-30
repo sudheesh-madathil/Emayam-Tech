@@ -1,0 +1,54 @@
+/* src/components/Register.css */
+.register-container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 77px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register input,
+  .register select,
+  .register button,
+  .login input,
+  .login button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .register button,
+  .login button {
+    background-color: #5cb85c;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .register button:hover,
+  .login button:hover {
+    background-color: #4cae4c;
+  }
+  
+  .toggle-form {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .toggle-form button {
+    background-color: #0275d8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .toggle-form button:hover {
+    background-color: #025aa5;
+  }
+  
